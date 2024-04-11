@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: ?? ????? A??.ggsk
-// Generated 2024-04-11T08:45:59
+// Generated 2024-04-11T09:59:57
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -5508,7 +5508,7 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me.__13.onclick=function (e) {
-			player.openNext("{node13}","");
+			player.openNext("{node14}","");
 			player.setVariableValue('vis_onefloor', true);
 			me.__11.style.transition='none';
 			me.__11.style.visibility='hidden';
@@ -6735,7 +6735,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._m2.onclick=function (e) {
 			player.setVariableValue('vis_secondfloor', true);
-			player.openNext("{node13}","");
+			player.openNext("{node14}","");
 			me.__11.style.transition='none';
 			me.__11.style.visibility='hidden';
 			me.__11.ggVisible=false;
@@ -7049,7 +7049,7 @@ function pano2vrSkin(player,base) {
 		el.ggId="\ubbf8\ub2c8\ub9f5\ud0c0\uc774\ud2c0-\ubaa8\ubc14\uc77c-\ud655\ub300";
 		el.ggDx=0;
 		el.ggDy=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1.2,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
@@ -7068,6 +7068,7 @@ function pano2vrSkin(player,base) {
 		hs+='<link rel=\"preconnect\" href=\"https:\/\/fonts.googleapis.com\"> <link rel=\"preconnect\" href=\"https:\/\/fonts.gstatic.com\" crossorigin> <link href=\"https:\/\/fonts.googleapis.com\/css2?family=Noto+Sans&family=Noto+Sans+Display:wght@500&display=swap\" rel=\"stylesheet\"> font-family: \"Noto Sans\", sans-serif; font-family: \"Noto Sans Display\", sans-serif;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
+		el.style.transform=parameterToTransform(el.ggParameter);
 		hs ='';
 		hs += 'box-sizing: border-box;';
 		hs+='cursor: default;';
@@ -7157,13 +7158,13 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 0px solid #000000;';
 		hs+='cursor : default;';
-		hs+='height : 89.2857%;';
-		hs+='left : calc(50% - ((90% + 0px) / 2) + 0px);';
+		hs+='height : 84.2262%;';
+		hs+='left : calc(50% - ((85% + 0px) / 2) + 0px);';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((89.2857% + 0px) / 2) + 0%);';
+		hs+='top : calc(50% - ((84.2262% + 0px) / 2) + 0%);';
 		hs+='visibility : hidden;';
-		hs+='width : 90%;';
+		hs+='width : 85%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -7241,13 +7242,13 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 0px solid #000000;';
 		hs+='cursor : default;';
-		hs+='height : 99.3549%;';
-		hs+='left : calc(50% - ((100% + 0px) / 2) + 0px);';
+		hs+='height : 84.23%;';
+		hs+='left : calc(50% - ((85% + 0px) / 2) + 0px);';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((99.3549% + 0px) / 2) + 0%);';
+		hs+='top : calc(50% - ((84.23% + 0px) / 2) + 0%);';
 		hs+='visibility : hidden;';
-		hs+='width : 100%;';
+		hs+='width : 85%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -7325,13 +7326,13 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 0px solid #000000;';
 		hs+='cursor : default;';
-		hs+='height : 99.3549%;';
-		hs+='left : calc(50% - ((100% + 0px) / 2) + 0px);';
+		hs+='height : 84.23%;';
+		hs+='left : calc(50% - ((85% + 0px) / 2) + 0px);';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((99.3549% + 0px) / 2) + 0%);';
+		hs+='top : calc(50% - ((84.23% + 0px) / 2) + 0%);';
 		hs+='visibility : hidden;';
-		hs+='width : 100%;';
+		hs+='width : 85%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -7559,7 +7560,7 @@ function pano2vrSkin(player,base) {
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="\uce35\uc218\uc124\uba85-\ud655\ub300";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1.2,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
@@ -7576,6 +7577,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
+		el.style.transform=parameterToTransform(el.ggParameter);
 		hs ='';
 		hs += 'box-sizing: border-box;';
 		hs+='width: 100%;';
@@ -7878,7 +7880,7 @@ function pano2vrSkin(player,base) {
 		el.ggTextDiv=els;
 		el.ggId="1\uce35-\ud655\ub300-m";
 		el.ggDy=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1.2,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
@@ -7900,6 +7902,7 @@ function pano2vrSkin(player,base) {
 		hs+='@import url(\"https:\/\/fonts.googleapis.com\/css2?family=Nanum+Gothic:wght@400;700&display=swap\"); font-family: \"Nanum Gothic\", sans-serif; word-break:keep-all; line-height:17px;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
+		el.style.transform=parameterToTransform(el.ggParameter);
 		hs ='';
 		hs += 'box-sizing: border-box;';
 		hs+='width: 100%;';
@@ -7959,7 +7962,7 @@ function pano2vrSkin(player,base) {
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="2\uce35-\ud655\ub300-m";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1.2,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
@@ -7981,6 +7984,7 @@ function pano2vrSkin(player,base) {
 		hs+='@import url(\"https:\/\/fonts.googleapis.com\/css2?family=Nanum+Gothic:wght@400;700&display=swap\"); font-family: \"Nanum Gothic\", sans-serif; word-break:keep-all; line-height:17px;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
+		el.style.transform=parameterToTransform(el.ggParameter);
 		hs ='';
 		hs += 'box-sizing: border-box;';
 		hs+='width: 100%;';
@@ -8040,7 +8044,7 @@ function pano2vrSkin(player,base) {
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="\uc9c0\ud558-\ud655\ub300-m";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1.2,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
@@ -8062,6 +8066,7 @@ function pano2vrSkin(player,base) {
 		hs+='@import url(\"https:\/\/fonts.googleapis.com\/css2?family=Nanum+Gothic:wght@400;700&display=swap\"); font-family: \"Nanum Gothic\", sans-serif; word-break:keep-all; line-height:17px;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
+		el.style.transform=parameterToTransform(el.ggParameter);
 		hs ='';
 		hs += 'box-sizing: border-box;';
 		hs+='width: 100%;';
@@ -8103,7 +8108,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._m0.onclick=function (e) {
 			player.setVariableValue('vis_secondfloor', true);
-			player.openNext("{node13}","");
+			player.openNext("{node14}","");
 			me.__11.style.transition='none';
 			me.__11.style.visibility='hidden';
 			me.__11.ggVisible=false;
@@ -8216,12 +8221,12 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='height : 77.57%;';
-		hs+='left : calc(50% - ((100% + 0px) / 2) + 0%);';
+		hs+='height : 66.59%;';
+		hs+='left : calc(50% - ((89.4118% + 0px) / 2) + 0%);';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((77.57% + 0px) / 2) + 0px);';
+		hs+='top : calc(50% - ((66.59% + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
-		hs+='width : 100%;';
+		hs+='width : 89.4118%;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
