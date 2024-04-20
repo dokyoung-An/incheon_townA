@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: ?? ????? A??.ggsk
-// Generated 2024-04-11T10:30:26
+// Generated 2024-04-20T10:47:34
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -5240,7 +5240,7 @@ function pano2vrSkin(player,base) {
 					if (me.__15.ggUpdateText) {
 					me.__15.ggUpdateText=function() {
 						var params = [];
-						var hs = player._("1\uce35", params);
+						var hs = player._("2\uce35", params);
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -5256,7 +5256,7 @@ function pano2vrSkin(player,base) {
 					if (me.__15.ggUpdateText) {
 					me.__15.ggUpdateText=function() {
 						var params = [];
-						var hs = player._("2\uce35", params);
+						var hs = player._("3\uce35", params);
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -5272,7 +5272,7 @@ function pano2vrSkin(player,base) {
 					if (me.__15.ggUpdateText) {
 					me.__15.ggUpdateText=function() {
 						var params = [];
-						var hs = player._("\uc9c0\ud558", params);
+						var hs = player._("1\uce35", params);
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -5486,7 +5486,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__13.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("\uc9c0\ud558\n", params);
+			var hs = player._("1\uce35\n", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -5568,7 +5568,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__12.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("1\uce35\n", params);
+			var hs = player._("2\uce35\n", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -5649,7 +5649,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__20.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("2\uce35", params);
+			var hs = player._("3\uce35", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -6307,7 +6307,7 @@ function pano2vrSkin(player,base) {
 					if (me._m4.ggUpdateText) {
 					me._m4.ggUpdateText=function() {
 						var params = [];
-						var hs = player._("1\uce35", params);
+						var hs = player._("2\uce35", params);
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -6323,7 +6323,7 @@ function pano2vrSkin(player,base) {
 					if (me._m4.ggUpdateText) {
 					me._m4.ggUpdateText=function() {
 						var params = [];
-						var hs = player._("2\uce35", params);
+						var hs = player._("3\uce35", params);
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -6339,7 +6339,7 @@ function pano2vrSkin(player,base) {
 					if (me._m4.ggUpdateText) {
 					me._m4.ggUpdateText=function() {
 						var params = [];
-						var hs = player._("\uc9c0\ud558", params);
+						var hs = player._("1\uce35", params);
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -6550,7 +6550,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__1m0.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("1\uce35", params);
+			var hs = player._("2\uce35", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -6631,7 +6631,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__2m0.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("2\uce35", params);
+			var hs = player._("3\uce35", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -6712,7 +6712,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._m2.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("\uc9c0\ud558", params);
+			var hs = player._("1\uce35", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -7647,7 +7647,7 @@ function pano2vrSkin(player,base) {
 					if (me.__5.ggUpdateText) {
 					me.__5.ggUpdateText=function() {
 						var params = [];
-						var hs = player._("1\uce35", params);
+						var hs = player._("2\uce35", params);
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -7663,7 +7663,7 @@ function pano2vrSkin(player,base) {
 					if (me.__5.ggUpdateText) {
 					me.__5.ggUpdateText=function() {
 						var params = [];
-						var hs = player._("2\uce35", params);
+						var hs = player._("3\uce35", params);
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -7679,7 +7679,7 @@ function pano2vrSkin(player,base) {
 					if (me.__5.ggUpdateText) {
 					me.__5.ggUpdateText=function() {
 						var params = [];
-						var hs = player._("\uc9c0\ud558", params);
+						var hs = player._("1\uce35", params);
 						if (hs!=this.ggText) {
 							this.ggText=hs;
 							this.ggTextDiv.innerHTML=hs;
@@ -7921,7 +7921,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__1m.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("1\uce35", params);
+			var hs = player._("2\uce35", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -8003,7 +8003,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me.__2m.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("2\uce35", params);
+			var hs = player._("3\uce35", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -8085,7 +8085,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._m0.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("\uc9c0\ud558\n", params);
+			var hs = player._("1\uce35\n", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -11574,7 +11574,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._lottie_2.logicBlock_size();
 		me._lottie_2.onclick=function (e) {
-			player.openNext(player._(me.hotspot.url),"$(fwd)");
+			player.openNext(player._(me.hotspot.url),"");
 		}
 		me._lottie_2.ggUpdatePosition=function (useTransition) {
 		}
