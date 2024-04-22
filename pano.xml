@@ -262,11 +262,11 @@
       <label backgroundcolor="0xffffff" textcolor="0x000000" borderalpha="1" textalpha="1" enabled="1" borderradius="1" border="1" backgroundalpha="1" wordwrap="1" height="20" width="180" background="1" bordercolor="0x000000"/>
       <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot title="안방욕실" url="{node23}" target="" description="" tilt="-46.9" id="Point01" pan="-171.47" skinid="ht_node"/>
-      <hotspot title="안방 파우더룸" url="{node32}" target="" description="" tilt="-40.28" id="Point02" pan="-269.88" skinid="ht_node"/>
       <hotspot title="안방 드레스룸" url="{node22}" target="" description="" tilt="-24.77" id="Point03" pan="-115" skinid="ht_node"/>
       <hotspot title="안방" url="{node25}" target="" description="" tilt="-15.13" id="Point04" pan="-94.24" skinid="ht_node"/>
       <hotspot title="안방욕실2" url="{node31}" target="" description="" tilt="-27.75" id="Point05" pan="-246.77" skinid="ht_node"/>
       <hotspot title="사우나실" url="{node19}" target="" description="" tilt="-23.45" id="Point06" pan="-266.57" skinid="ht_node"/>
+      <hotspot title="안방 파우더룸" url="{node24}" target="" description="" tilt="-41.87" id="Point02" pan="-267.61" skinid="ht_node"/>
     </hotspots>
     <media/>
     <transition blendtime="1" type="crossdissolve" zoomfov="40" zoomoutpause="1" zoomin="0" zoomspeed="2" enabled="1" zoomafterinfov="140" zoomafteroutfov="40" blendcolor="0x000000" delay="none" softedge="0" zoomout="0"/>

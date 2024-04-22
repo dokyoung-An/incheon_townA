@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: ?? ????? A??.ggsk
-// Generated 2024-04-22T09:36:16
+// Generated 2024-04-22T09:49:50
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -3399,10 +3399,6 @@ function pano2vrSkin(player,base) {
 		me.__31.logicBlock_visible();
 		me.__31.onclick=function (e) {
 			player.toggleFullscreen();
-			me.__34.ggVisible = !me.__34.ggVisible;
-			var flag=me.__34.ggVisible;
-			me.__34.style.transition='none';
-			me.__34.style.visibility=((flag)&&(Number(me.__34.style.opacity)>0||!me.__34.style.opacity))?'inherit':'hidden';
 		}
 		me.__31.onmouseover=function (e) {
 			me.elementMouseOver['_31']=true;
@@ -3457,6 +3453,31 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__34.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((player.getIsFullscreen() == true))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me.__34.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me.__34.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me.__34.style.transition='';
+				if (me.__34.ggCurrentLogicStateVisible == 0) {
+					me.__34.style.visibility=(Number(me.__34.style.opacity)>0||!me.__34.style.opacity)?'inherit':'hidden';
+					me.__34.ggVisible=true;
+				}
+				else {
+					me.__34.style.visibility="hidden";
+					me.__34.ggVisible=false;
+				}
+			}
+		}
+		me.__34.logicBlock_visible();
 		me.__34.ggUpdatePosition=function (useTransition) {
 		}
 		me.__31.appendChild(me.__34);
@@ -8543,6 +8564,7 @@ function pano2vrSkin(player,base) {
 		me.__36.logicBlock_visible();
 		me.__35.logicBlock_visible();
 		me.__31.logicBlock_visible();
+		me.__34.logicBlock_visible();
 		me.__30.logicBlock_visible();
 		me._up.logicBlock_visible();
 		me.__28.logicBlock_position();
@@ -10817,10 +10839,11 @@ function pano2vrSkin(player,base) {
 			me._image_6.logicBlock_angle();
 			me._m.logicBlock_visible();
 		});
+		player.addListener('fullscreenenter', function(event) {
+			me.__34.logicBlock_visible();
+		});
 		player.addListener('fullscreenexit', function(event) {
-			me.__34.style.transition='none';
-			me.__34.style.visibility='hidden';
-			me.__34.ggVisible=false;
+			me.__34.logicBlock_visible();
 		});
 		player.addListener('hotspotsupdated', function(event) {
 			if (hotspotTemplates.hasOwnProperty('ht_node')) {
