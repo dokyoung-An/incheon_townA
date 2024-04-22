@@ -255,7 +255,7 @@
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="140" fovstereographic="330" tilt="90" fovfisheye="360" pan="360"/>
     </view>
-    <userdata comment="" copyright="" datetime="2024-04-09 오후 2:20" info="넓게" latitude="" longitude="" tags="메인|옥련동 타운하우스 A타입 파노라마-최종1|지하" customnodeid="" source="" description="" heading="0" nodeid="node32" author="" title="안방 파우더룸">
+    <userdata comment="" copyright="" datetime="2024-04-09 오후 2:20" info="넓게" latitude="" longitude="" tags="옥련동 타운하우스 A타입 파노라마-최종1|지하" customnodeid="" source="" description="" heading="0" nodeid="node32" author="" title="안방 파우더룸">
       <mapcoords y_floorplan_percent="64.3463" y="-1.04095" mapid="FloorPlan01" x="1.64246" x_floorplan_percent="79.3103"/>
     </userdata>
     <hotspots smoothmovement="0" wordwrap="1" height="20" width="180">
